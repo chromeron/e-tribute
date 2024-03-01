@@ -5,7 +5,7 @@ const s3 = new S3Client({
   region: import.meta.env.REGION,
   credentials: {
     accessKeyId: import.meta.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: import.meta.env.AWS_SECRET_KEY,
+    secretAccessKey: import.meta.env.AWS_SERVER_KEY,
   },
 });
 
