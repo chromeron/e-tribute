@@ -1,0 +1,1 @@
+export const END_POINT_BACKEND = "https://3.83.152.45.nip.io";
